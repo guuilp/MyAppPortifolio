@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="example.google.com.myappportifolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:padding="16dp"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_cabecalho" />
+
+    <Button
+        android:id="@+id/btFilmesPopulares"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:text="@string/btFilmesPopulares"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btStockHawk"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:text="@string/btStockHawk"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btFacaoMaior"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:text="@string/btFacaoMaior"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btMaterial"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:text="@string/btMaterial"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btSejaOnipresente"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:text="@string/btSejaOnipresente"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btCapstone"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:text="@string/btCapstone"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
